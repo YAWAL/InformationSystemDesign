@@ -1,0 +1,46 @@
+INSERT INTO Customers(id, company, city, phone, serviceLevel)
+VALUES (1, superComp, lviv,1, gold);
+INSERT INTO Customers(id, company, city, phone, serviceLevel)
+VALUES (2, mega co, kyiv , 123, silver);
+INSERT INTO Customers(id, company, city, phone, serviceLevel)
+VALUES (3, metal, lviv, 1234, silver);
+INSERT INTO Customers(id, company, city, phone, serviceLevel)
+VALUES (4, wood ind, wroclaw, 41245934, platinum);
+INSERT INTO Customers(id, company, city, phone, serviceLevel)
+VALUES (5, apple, santaclara, 56295819, platinum);
+
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (1,1, apples,100,food);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (2,1, laptop ,3,noonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (3,2, pen,4,nonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (4,2, mouse,55, nonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (5,3, cup,5, nonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (6,3, carrot,4, food);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (7,4, carpet,77, nonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (8,4, pencil,1, nonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (9,5, mouse,8, nonfood);
+INSERT INTO Goods(id, customerId, name, price, type)
+VALUES (10,5, monitor,99, nonfood);
+
+INSERT INTO Stores(id, goodId, city)
+VALUES (1,3,lviv);
+INSERT INTO Stores(id, goodId, city)
+VALUES (2,3,kyiv);
+INSERT INTO Stores(id, goodId, city)
+VALUES (3,3,wroclaw);
+INSERT INTO Stores(id, goodId, city)
+VALUES (4,7,warsaw);
+INSERT INTO Stores(id, goodId, city)
+VALUES (5,7,krakow);
+INSERT INTO Stores(id, goodId, city)
+VALUES (6,1,lisboa);
+INSERT INTO Stores(id, goodId, city)
+VALUES (7,5,paris);
